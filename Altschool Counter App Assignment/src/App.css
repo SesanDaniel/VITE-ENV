@@ -21,8 +21,8 @@ body {
   background-color: #fff;
   width: 55%;
   margin: auto;
-  height: 50vh;
-  margin-top: 18rem;
+  height: 60vh;
+  margin-top: 10rem;
   border-radius: 2rem;
   overflow: hidden;
   text-align: center;
@@ -41,7 +41,7 @@ body {
   color: rgb(90, 65, 189);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    margin-bottom: 8rem;
+  margin-bottom: 8rem;
 }
 
 .container .buttonss {
@@ -54,4 +54,7 @@ body {
 .container button {
   padding: 2%;
   cursor: pointer;
+  outline: none;
+  border-radius: 1rem;
+  border: 0.1rem solid lightgray;
 }
