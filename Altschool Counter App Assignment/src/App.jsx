@@ -8,6 +8,7 @@ import chevronsDown from "./assets/chevrons-down.svg";
 import hash from "./assets/hash.svg";
 import rotate from "./assets/rotate-ccw.svg"
 
+
 function App() {
   return (
     <>
@@ -15,7 +16,7 @@ function App() {
         <h3>Current Value</h3>
         <h1>0</h1>
         <div className=" buttonss">
-          <button className="btn"><img src={chevronUp}/></button>
+          <button className="btn" onClick={}><img src={chevronUp}/></button>
           <button className="btn"><img src={chevronsUp}/></button>
           <button className="btn"><img src={rotate}/></button>
           <button className="btn"><img src={hash}/></button>
