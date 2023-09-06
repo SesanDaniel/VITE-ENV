@@ -59,3 +59,22 @@ body {
   border-radius: 1rem;
   border: 0.1rem solid lightgray;
 }
+
+@media (max-width:650px) {
+  .container {
+    width: 80%;
+    height: 80vh;
+  }
+
+  .container h3 {
+    margin-top: 20rem;
+  }
+
+  .container h1 {
+    margin-top: 5rem;
+  }
+
+  .buttonss {
+    margin-top: 8rem;
+  }
+}
