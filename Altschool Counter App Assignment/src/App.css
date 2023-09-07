@@ -60,7 +60,7 @@ body {
   border: 0.1rem solid lightgray;
 }
 
-@media (max-width:650px) {
+@media (max-width:720px) {
   .container {
     width: 80%;
     height: 80vh;
